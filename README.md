@@ -58,11 +58,11 @@ If we set mu0=0.2, running the codes above and we should be able to obtain resul
 | Statistics name        | Test           | P-values  |
 | ---------------------- |:--------------:| ---------:|
 | $T1$                   | 0.952          | 0.171     |
-| $T1_nw$                | 0.864          | 0.194     |
-| $T1_alrv$              | 0.952          | 0.171     |
-| $T1_d$                 | 1.25           | 0.106     |
-| $T1_d_nw$              | 1.29           | 0.098     |
-| $T1_d_alrv$            | 1.36           | 0.088     |
+| $T1_{nw}$              | 0.864          | 0.194     |
+| $T1_{alrv}$            | 0.952          | 0.171     |
+| $T1^{d}$               | 1.25           | 0.106     |
+| $T1^d_{nw}$            | 1.29           | 0.098     |
+| $T1^d_{alrv}$          | 1.36           | 0.088     |
 
 That is, based on our test, the two linear models are different in terms of predictive power. For the aim of comparison with existing methods, such as DM and CW, one could also run their test using the *dm_cw* functions likewise:
 
