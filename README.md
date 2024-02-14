@@ -29,7 +29,7 @@ Alternatively, one could consider adjust the long-run variance via Andrews (1991
 
 In addition, we consider both the situation where the error terms are demeaned or not.
 
-To sum-up: given $\hat{e}_{1}$, $\hat{e}_{2}$, $mu_{0}$ the program should output the quantity $d_{bar}$ for in total 6 situation (demeaned or not, and 3 different types of long-run variance)
+To sum-up: given $e_{1}$, $e_{2}$, $mu_{0}$ the program should output the quantity $d_{bar}$ for in total 6 situation (demeaned or not, and 3 different types of long-run variance)
 
 **Note that the corresponding p-values will be returned along with the test statistics, with the null hypothesis being the larger model does not add information in prediction.**
 
@@ -66,6 +66,7 @@ If we set mu0=0.2, running the codes above and we should be able to obtain resul
 
 That is, based on our test, the the larger model do contain additional information that helps in prediction.
 
-#' $T1^d_{alrv}$     #demeaned d statistics with Andrews quadratic kernel long-run variance
-#' $T1_{nw}$     #d statistics with Newey-West type long run variance
+$T1^d_{alrv}$     #demeaned d statistics with Andrews quadratic kernel long-run variance
+
+$T1_{nw}$     #d statistics with Newey-West type long run variance
 
