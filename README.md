@@ -29,7 +29,7 @@ Alternatively, one could consider adjust the long-run variance via Andrews (1991
 
 In addition, we consider both the situation where the error terms are demeaned or not.
 
-To sum-up: given $\hat{e}_1$, $\hat{e}_2$, $mu_0$ the program should output the quantity $d_{bar}$ for in total 6 situation (demeaned or not, and 3 different types of long-run variance)
+To sum-up: given $\hat{e}_{1}$, $\hat{e}_{2}$, $mu_{0}$ the program should output the quantity $d_{bar}$ for in total 6 situation (demeaned or not, and 3 different types of long-run variance)
 
 **Note that the corresponding p-values will be returned along with the test statistics, with the null hypothesis being the larger model does not add information in prediction.**
 
@@ -64,9 +64,8 @@ If we set mu0=0.2, running the codes above and we should be able to obtain resul
 | $T1^d_{nw}$            | 1.29           | 0.098     |
 | $T1^d_{alrv}$          | 1.36           | 0.088     |
 
-That is, based on our test, the two linear models are different in terms of predictive power. For the aim of comparison with existing methods, such as DM and CW, one could also run their test using the *dm_cw* functions likewise:
+That is, based on our test, the the larger model do contain additional information that helps in prediction.
 
-#' SEtest$T1_d_alrv     #demeaned d statistics with Andrews quadratic kernel long-run variance
-#' SEtest$Pval_T1_d_alrv  #P value of it
-#' SEtest$T1_nw     #d statistics with Newey-West type long run variance
-#' SEtest$Pval_T1_d_nw  #P value of it
+#' $T1^d_{alrv}$     #demeaned d statistics with Andrews quadratic kernel long-run variance
+#' $T1_{nw}$     #d statistics with Newey-West type long run variance
+
