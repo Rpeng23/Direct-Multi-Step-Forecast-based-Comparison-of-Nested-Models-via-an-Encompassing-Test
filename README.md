@@ -70,3 +70,5 @@ $T1^d_{alrv}$     #demeaned d statistics with Andrews quadratic kernel long-run 
 
 $T1_{nw}$     #d statistics with Newey-West type long run variance
 
+**It is noted that setting a mu0 close to 0.5 (i.e., 0.45) would enhance the power of the test.**
+
